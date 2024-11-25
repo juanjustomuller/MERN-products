@@ -27,3 +27,6 @@ app.listen(PORT, () => {
     connectDb();
     console.log("Server started at http://localhost:" + PORT)
 })
+
+
+//"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
